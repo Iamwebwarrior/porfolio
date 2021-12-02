@@ -1,0 +1,59 @@
+@import "../../global.scss";
+
+
+.intro{
+    display: flex;
+    background-color: royalblue;
+
+
+
+    .left{
+        flex:0.5;
+        overflow: hidden;
+        overflow-x: hidden;
+
+        .imgContainer{
+            object-fit: cover;
+            width: 700px;
+            height: 700px;
+            background-color: crimson;
+            border-radius: 50%;
+            display: flex ;
+            align-items: center;
+            justify-content: center;
+            
+            img{
+                height: 90%;
+            }
+        }
+    }
+    .right{
+        flex:0.5;
+        position: relative;
+
+        .wrapper{
+            margin-top: 20%;
+            margin-left: 10%;
+
+            h1{
+                font-size: 50px;
+            }
+            h3{
+                font-size: 20px;
+            }
+
+        }
+
+        a{
+            display: flex;
+            justify-content: center;
+            img{
+                width: 10%;
+                height: 10%;
+                position: absolute;
+                bottom: 0px;
+
+            }
+        }
+    }
+}
