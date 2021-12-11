@@ -69,13 +69,13 @@ export default function Work() {
         ))}
       </div>
       <img
-        src="assets/arrow.png"
+        src={process.env.PUBLIC_URL + "/assets/arrow.png"}
         className="arrow left"
         alt=""
         onClick={() => handleClick("left")}
       />
       <img
-        src="assets/arrow.png"
+        src={process.env.PUBLIC_URL + "/assets/arrow.png"}
         className="arrow right"
         alt=""
         onClick={() => handleClick()}

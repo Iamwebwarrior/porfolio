@@ -21,7 +21,7 @@ export default function Intro() {
         <div className="intro" id="intro">
         <div className="left">
           <div className="imgContainer">
-            <img src="assets/man.png" alt="" className="imgcontain" />
+            <img src={process.env.PUBLIC_URL + "/assets/man.png"} alt="" className="imgcontain" />
           </div>
         </div>
 
@@ -36,7 +36,7 @@ export default function Intro() {
             </h3>
           </div>
           <a href="#portfolio">
-            <img src="assets/down.png" alt="" />
+            <img src={process.env.PUBLIC_URL + "/assets/down.png"} alt="" />
           </a>
         </div>
       </div>
